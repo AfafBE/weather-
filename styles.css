@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://relaxgatlinburg.com/wp-content/uploads/2022/07/Weather-conditions-in-Gatlinburg-Tennessee.jpeg') no-repeat center center fixed; /* Add your background image here */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000; 
+}
+
+#weather-app {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#city {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weather-result {
+    margin-top: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    #weather-app {
+        width: 90%;
+    }
+
+    #city {
+        width: 100%;
+    }
+}
